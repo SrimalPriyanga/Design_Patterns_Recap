@@ -1,0 +1,29 @@
+{
+  "name": "design_patterns_recap",
+  "version": "1.0.0",
+  "description": "Design patterns usage examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrimalPriyanga/Design_Patterns_Recap.git"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "javascript"
+  ],
+  "author": "Srimal Priyanga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SrimalPriyanga/Design_Patterns_Recap/issues"
+  },
+  "homepage": "https://github.com/SrimalPriyanga/Design_Patterns_Recap#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
