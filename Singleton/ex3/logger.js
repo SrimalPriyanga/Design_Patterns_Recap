@@ -8,12 +8,17 @@ class Logger {
   }
 
   log(message) {
+    console.log("Logging start ...");
+    this.printLogCount();
     this.logs.push(message);
-    console.log(`Log message is: ${message}`);
+    console.log(`message is: ${message}`);
+    console.log(this.logs);
+    this.printLogCount();
+    console.log("Logging end.!");
   }
 
   printLogCount() {
-    return console.log(`Logs count: ${this.logs.length}`);
+    return console.log(`count: ${this.logs.length}`);
   }
 }
 

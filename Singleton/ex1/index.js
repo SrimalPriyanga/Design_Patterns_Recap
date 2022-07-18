@@ -1,4 +1,4 @@
-// Singleton Design Pattern Example
+// Singleton Design Pattern Example 1
 
 const Singleton = (function () {
   let instance;
@@ -16,6 +16,8 @@ const Singleton = (function () {
     },
   };
 })();
+
+console.log("---------- EXAMPLE 1 ----------");
 
 // Create first instant
 const instance1 = Singleton.getInstance();

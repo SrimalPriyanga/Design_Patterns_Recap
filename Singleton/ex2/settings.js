@@ -1,3 +1,4 @@
+// Singleton Design Pattern Example 2
 class Settings {
   constructor() {
     if (Settings.instance instanceof Settings) {
@@ -18,6 +19,8 @@ class Settings {
     return this.settingsObject[key];
   }
 }
+
+console.log("---------- EXAMPLE 2 ----------");
 
 // Create first instant
 const classInstance1 = new Settings();

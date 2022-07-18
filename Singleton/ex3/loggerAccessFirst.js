@@ -1,6 +1,6 @@
 import logger from "./logger.js";
 
+// Logger access in first file
 export default function firstLoggerAccess() {
-  logger.printLogCount();
   logger.log("Hello World! from firstLoggerAccess");
 }
